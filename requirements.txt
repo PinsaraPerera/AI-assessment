@@ -1,0 +1,7 @@
+transformers
+pillow
+streamlit
+torch
+requests
+openai
+python-dotenv
