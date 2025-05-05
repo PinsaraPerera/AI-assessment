@@ -25,7 +25,7 @@ def generate_behavioral_analysis(basic_caption):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are an expert at analyzing human behavior from descriptions. Provide a detailed behavioral analysis that goes beyond basic description. Infer intentions, emotions, and social context."},
-            {"role": "user", "content": f"Based on this image description: '{basic_caption}', provide a behavioral analysis of what might be happening. Only one paragraph with a maximum of 100 words."}
+            {"role": "user", "content": f"Based on this image description: '{basic_caption}', provide a behavioral analysis of what might be happening. Only one paragraph with a maximum of 100 words. Stick strictly to what can be reasonably inferred without inventing details."}
         ]
     )
     
