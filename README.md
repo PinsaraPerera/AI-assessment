@@ -69,12 +69,6 @@ Key advantages:
 
 OpenAI's GPT-3.5 Turbo is used to transform basic image captions into nuanced behavioral descriptions by inferring intentions, emotions, and social contexts from the scene description.
 
-## Example Outputs
-
-Basic Caption: "a woman sitting on the beach with her dog"
-
-Behavioral Analysis: "The woman appears to be taking a moment of relaxation at the beach with her canine companion. The setting suggests she values outdoor leisure time and has a close bond with her pet. The beach environment indicates she's seeking a peaceful, natural setting, possibly to unwind from daily stresses. Her posture of sitting rather than more active engagement suggests a contemplative mood, perhaps taking time for mindfulness or simply enjoying the sensory experience of the beach. The presence of her dog shows she prioritizes companionship even during personal relaxation time."
-
 ## Requirements
 
 - Python 3.10+
@@ -83,3 +77,19 @@ Behavioral Analysis: "The woman appears to be taking a moment of relaxation at t
 - OpenAI API key
 - Streamlit
 - python-dotenv
+
+## Example Outputs
+
+Basic Caption: "a woman sitting on the beach with her dog"
+
+Behavioral Analysis: "The woman appears to be taking a moment of relaxation at the beach with her canine companion. The setting suggests she values outdoor leisure time and has a close bond with her pet. The beach environment indicates she's seeking a peaceful, natural setting, possibly to unwind from daily stresses. Her posture of sitting rather than more active engagement suggests a contemplative mood, perhaps taking time for mindfulness or simply enjoying the sensory experience of the beach. The presence of her dog shows she prioritizes companionship even during personal relaxation time."
+
+
+## Screen Shots
+
+![Image1](./example_outputs/image1.png)
+![Image2](./example_outputs/image2.png)
+![Image3](./example_outputs/image3.png)
+![Image4](./example_outputs/image4.png)
+![Image5](./example_outputs/non%20human.png)
+
