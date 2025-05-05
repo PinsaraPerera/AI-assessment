@@ -3,6 +3,10 @@ from PIL import Image
 import os
 from caption_generator import analyze_image
 from dotenv import load_dotenv
+import torch
+
+# Fix for torch/streamlit compatibility issue
+torch.classes.__path__ = []
 
 # Load environment variables from .env file
 load_dotenv()
@@ -21,7 +25,7 @@ st.write("Upload an image to generate a behavioral analysis")
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # Main content
-col1, col2 = st.columns([1, 1])
+col1, col2 = st.columns([1, 2])
 
 with col1:
     # Image upload section
